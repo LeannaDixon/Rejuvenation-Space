@@ -1,0 +1,124 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+/*Book button*/
+.bookbutton {
+  position: fixed;
+  right: 20px;
+  z-index: 20;
+  float: right;
+  background-color: teal;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bookbutton:hover {
+  color: blue;
+}
+/*Page layout*/
+.container {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "nav nav nav nav" /* row 1*/
+                       "head head head head" /* row 2*/
+                       "image1 image1 image1 image1" /* row 3*/
+                       "logo" /* row 3 */
+                       "home home home home" /*row 4 */
+                       "s1" "s2" "s3" "s4" /*row 5*/
+                       "serv serv serv serv" /* row 6 */
+                       "team team team team" /* row 7*/
+                       "book book book book" /* row 8*/
+                       "foot foot foot foot"; /* row 9*/
+  }
+
+/*navigation buttons in header*/
+nav {
+  grid-area: nav;
+  width: 100%;
+  z-index: 10;
+  display: fixed;
+  position: fixed;
+  border-bottom: 1px solid;
+  justify-content: space-evenly;
+}
+
+ul.nav:hover {
+  color:teal;
+}
+
+ul {
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid teal;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  box-sizing: borderbox;
+  color: teal;
+  border-bottom: 1px solid teal;
+}
+
+/* Title */
+header {
+  grid-area: head;
+  height: 20%;
+  font-weight: bolder;
+}
+
+/*image*/
+}
+.image {
+  width: 700px;
+  height:350px;
+  grid-area: image;
+}
+
+/*logo*/
+.logo {
+  grid-area:logo;
+}
+
+/*Introduction stuff*/
+.home {
+  grid-area: home;
+}
+
+/*4 sections*/
+.selfcare {
+  grid-area: s1;
+  /*grid-row: 3/4;
+  grid-column: 1/2;*/
+}
+.mindspace {
+  grid-area: s2;
+  /*grid-row: 3/4;
+  grid-column: 2/3;*/
+}
+.muscle {
+  grid-area: s3;
+  /*grid-row: 3/4;
+  grid-column: 3/4;*/
+}
+.goals {
+  grid-area: s4;
+  /*grid-row: 3/4;
+  grid-column: 4/5;*/
+}
+
+.service {
+  grid-area: serv;
+}
+
+.footer {
+  grid-area: foot;
+  /*grid-row: 4/5;*/
+  /*grid-column: span 4;*/
+}

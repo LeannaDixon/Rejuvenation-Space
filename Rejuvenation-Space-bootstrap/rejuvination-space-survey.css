@@ -1,0 +1,85 @@
+body {
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  border-bottom: 1px solid;
+  font-family: 'Ubuntu', sans-serif;
+  }
+
+/*Welcome to our survey*/
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/*Actual Question */
+h2 {
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+/*Answers and Thank yoy in footer*/
+h3 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+/*Question # */
+h4 {
+ font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+/*Logo/Title*/
+h5 {
+  color: teal;
+  font-size:35px;
+  font-weight:200;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+}
+
+.welcome {
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.question {
+  text-align: center;
+  position: static;
+}
+
+.answer {
+  border: 1px solid;
+  margin: 20px;
+  display: inline-block;
+  width: 210px;
+  colour: teal;
+  text-align: center;
+}
+
+.answer:hover {
+  background: teal;
+  color: white;
+}
