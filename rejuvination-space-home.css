@@ -46,15 +46,13 @@ li,.nav {
 /* Home*/
 .image1 {
   grid-area: 2/4/3/7;
-  border: 1px solid;
   height: 200px;
   width: 25px;
 
 }
 
 #title {
-  grid-area: 2/1/3/4;
-  border: 1px solid;
+  grid-area: 2/1/3/7;
   padding-top: 100px;
   padding-left: 40px;
   padding-bottom: 40px;
@@ -75,32 +73,27 @@ p,#title{
 /*home sections*/
 .prevention-is-better {
   grid-area: 3/1/6/4;
-  border: 1px solid;
   padding: 40px 40px;
   align-self:center;
 }
 
 .stress-axiety-depression{
   grid-area:3/4/4/7;
-  border: 1px solid;
   padding: 40px 40px;
 }
 
 .musculoskeletal{
   grid-area: 4/4/5/7;
-  border: 1px solid;
   padding: 40px 40px;
 }
 
 .public{
   grid-area: 5/4/6/7;
-  border: 1px solid;
   padding: 40px 40px;
 }
 
 .image2 {
   grid-area: 6/1/7/7;
-  border: 1px solid;
   padding: 40px 40px;
 }
 
@@ -108,36 +101,30 @@ p,#title{
 #what-we-do {
     grid-area:7/1/8/7;
     align-self: stretch;
-    border: 1px solid;
 }
 
 .treatments {
   grid-area: 8/1/9/3;
   padding: 40px 40px;
-  border: 1px solid;
 }
 .booking {
   grid-area: 8/3/9/5;
   padding: 40px 40px;
-  border: 1px solid;
 }
 .affordability {
   grid-area: 8/5/9/7;
   padding: 40px 40px;
-  border: 1px solid;
 }
 
 /*image break*/
 .image3 {
   grid-area: 9/1/10/7;
-  border: 1px solid;
 }
 
 /*Section 3: How we do it*/
 .how-we-do-it {
   grid-area: 10/1/11/7;
   align-self: stretch;
-  border: 1px solid;
 }
 
 .your-space {
@@ -145,14 +132,12 @@ p,#title{
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
 }
 .our-therapists {
   grid-area: 11/3/12/5;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
   background-color: white;
 }
 .employee-access {
@@ -160,21 +145,18 @@ p,#title{
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
 }
 
 /*image breake*/
 .image4 {
   grid-area: 12/1/13/7;
   padding: 40px 40px;
-  border: 1px solid;
 }
 
 /*section 4: Our Therapists*/
 .our-therapists-are {
   grid-area: 13/1/14/7;
   align-self: stretch;
-  border: 1px solid;
 }
 
 .professional-and-experienced {
@@ -182,21 +164,18 @@ p,#title{
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
 }
 .qualified-and-insured {
   grid-area: 14/3/15/5;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
 }
 .fully-vetted {
   grid-area: 14/5/15/7;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  border: 1px solid;
 }
 
 .our-therapists > li {
@@ -209,12 +188,10 @@ p,#title{
 .image5 {
   grid-area: 15/1/16/7;
   padding: 40px 40px;
-  border: 1px solid;
 }
 
 /*Section 5: Interest form*/
 #trial-form {
   grid-area: 16/1/17/7;
   align-self: stretch;
-  border: 1px solid;
 }
